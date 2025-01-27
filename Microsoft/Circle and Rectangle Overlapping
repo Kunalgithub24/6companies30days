@@ -5,6 +5,5 @@ class Solution {
 
         int dist = (nearestX - xCenter) * (nearestX - xCenter) + (nearestY - yCenter) * (nearestY - yCenter);
         return dist <= radius * radius;
-        
     }
 }
