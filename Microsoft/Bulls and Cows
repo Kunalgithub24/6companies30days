@@ -1,3 +1,4 @@
+// Used hashMap for the solution ,
 class Solution {
     public String getHint(String secret, String guess) {
         int bulls = 0, cows = 0;
@@ -9,7 +10,7 @@ class Solution {
             char s = secret.charAt(i);
             char g = guess.charAt(i);
 
-            if (s == g) bulls++;
+            if (s == g) bulls++;// if equal then ..
             else {
                 secretFreq.put(s, secretFreq.getOrDefault(s, 0) + 1);
                 guessFreq.put(g, guessFreq.getOrDefault(g, 0) + 1);
