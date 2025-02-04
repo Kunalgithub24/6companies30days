@@ -12,7 +12,7 @@ class Solution {
             }
         }
        }
-        return count;
+        return count; // result
     }
     public boolean increSubarray(int []arr,int start,int end){
         int len =arr.length;
