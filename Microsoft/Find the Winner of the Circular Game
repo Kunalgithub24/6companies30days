@@ -4,6 +4,6 @@ class Solution {
         for(int i = 2;i<=n;i++){
             ans = (ans + k) % i;
         }
-        return ans+1;
+        return ans+1; // result
     }
 }
