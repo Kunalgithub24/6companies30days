@@ -12,6 +12,6 @@ class Solution {
             }
             i++;
         }
-        return res;
+        return res; // result
     }
 }
