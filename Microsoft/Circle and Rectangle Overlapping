@@ -4,6 +4,6 @@ class Solution {
         int nearestY = Math.max(y1, Math.min(y2, yCenter));
 
         int dist = (nearestX - xCenter) * (nearestX - xCenter) + (nearestY - yCenter) * (nearestY - yCenter);
-        return dist <= radius * radius;
+        return dist <= radius * radius;// result
     }
 }
