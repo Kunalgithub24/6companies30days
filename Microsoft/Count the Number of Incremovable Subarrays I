@@ -29,6 +29,6 @@ class Solution {
             }
             prev=arr[i];
         }
-        return true;
+        return true; //true
     }
 }
