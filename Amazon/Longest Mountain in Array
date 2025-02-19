@@ -1,7 +1,7 @@
 class Solution {
     public int longestMountain(int[] A) {
         int N = A.length;
-        int ans = 0, base = 0;
+        int ans = 0, base = 0;//
         while (base < N) {
             int end = base;
             // if base is a left-boundary
