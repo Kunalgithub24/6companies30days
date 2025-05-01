@@ -22,7 +22,7 @@ class Solution {
             }
 
         }
-        return sum; // Result stored
+        return sum; // Result
 
     }
 }
