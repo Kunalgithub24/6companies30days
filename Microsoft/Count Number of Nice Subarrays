@@ -9,6 +9,6 @@ class Solution {
             res +=map.getOrDefault(curr - k, 0);
             map.put(curr, map.getOrDefault(curr, 0)+1);
         }     
-        return res;  
+        return res;  result 
     }
 }
