@@ -21,6 +21,6 @@ class Solution {
             base = Math.max(end, base + 1); //final
         }
 
-        return ans; // result
+        return ans; // 
     }
 }
