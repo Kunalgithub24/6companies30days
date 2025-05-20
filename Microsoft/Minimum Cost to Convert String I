@@ -41,6 +41,6 @@ public class Solution {
                 ans += arr[val1][val2];
             }
         }
-        return ans; rrs
+        return ans;
     }
 }
