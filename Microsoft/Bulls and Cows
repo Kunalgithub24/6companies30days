@@ -23,7 +23,7 @@ class Solution {
             }
         }
 
-        return bulls + "A" + cows + "B"; result here
+        return bulls + "A" + cows + "B";
     }
 }
 
