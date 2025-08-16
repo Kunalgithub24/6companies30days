@@ -20,7 +20,8 @@ class Solution {
                 for(int m =0; m<j; m++){
                     sell = Math.max(sell,  (prices[j] - prices[m]) + dp[i-1][m] );
                 }
-                dp[i][j] = Math.max(sell, not_sell); 
+                dp[i][j] = Math.max(sell, not_sell); // to add the coloborations 
+
             }
         }
     
